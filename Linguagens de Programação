@@ -1,0 +1,37 @@
+Três Linguagens de Programação 
+a) Java:
+Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez pela Sun Microsystems em 1995. De um início humilde, ela evoluiu para uma grande participação no mundo digital dos dias atuais, oferecendo a plataforma confiável na qual muitos serviços e aplicativos são desenvolvidos. Produtos e serviços novos e inovadores projetados para o futuro continuam a confiar no Java também. Embora a maioria dos aplicativos Java modernos combine o runtime e o aplicativo Java, ainda há muitos aplicativos e até mesmo alguns sites que só funcionarão se você tiver um Java instalado no desktop. O java.com, este site, foi projetado para consumidores que ainda precisam do Java em seus aplicativos de desktop – especificamente aplicativos com foco no Java 8.
+Fonte:https://www.java.com/pt-BR/download/help/whatis_java.html
+b) Python:
+O Python foi lançado no início da década de 90 pelo programador e matemático holandês Guido Van Rossum. A linguagem foi projetada para dar ênfase no trabalho do desenvolvedor, facilitando a escrita de um código limpo, simples e legível, tanto em aplicações menores quanto em programas mais complexos. A linguagem oferece recursos como tipagem dinâmica e forte (tipo de dado do valor deve ser do mesmo tipo da variável), orientação a objetos, multiparadigmas (programação funcional e imperativa), além de recursos poderosos em biblioteca padrão e via módulos e frameworks desenvolvidos pela comunidade. Seu código é aberto e a utilização é gratuita, rodando em praticamente qualquer sistema operacional.
+Fonte:https://tecnoblog.net/responde/o-que-e-python-guia-para-iniciantes/
+c) Javascript:
+JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.
+Fonte:https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+A Diferença entre as linguagens de programação: 
+O Java é uma linguagem puramente orientada a objetos, o que significa que tudo, desde variáveis simples até complexas aplicações, é representado como objetos. Os tipos de dados das variáveis são definidos em tempo de compilação, o que ajuda a prevenir erros comuns. O código Java é compilado em bytecode, que pode ser executado em qualquer máquina virtual Java (JVM), garantindo portabilidade. Amplamente utilizado em desenvolvimento de aplicações empresariais, Android, big data e sistemas embarcados. O Phyton suporta programação orientada a objetos, funcional e procedural.  Os tipos de dados são inferidos em tempo de execução, o que torna o código mais conciso, ele é interpretado linha por linha, o que facilita o desenvolvimento rápido. Muito popular em ciência de dados, machine learning, desenvolvimento web (Django, Flask) e automação. Já o Javascript é Projetada para criar páginas web interativas, Os tipos de dados são inferidos em tempo de execução,  é interpretado pelo navegador e dominante no desenvolvimento front-end, mas também utilizado em back-end com Node.js para criar aplicações web completas. 
+- Sem fonte de pesquisa. 
+Código mínimo do Java:
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+Código mínimo do Python:
+print("Hello, world!")
+Código mínimp do Javascript:
+console.log("Hello, world!");
+import java.util.Scanner;
+Um Código em Java:
+public class CalculadoraAreaCirculo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o raio do círculo: ");
+        double raio = scanner.nextDouble();
+
+        double area = Math.PI * raio * raio;
+
+        System.out.println("A área do círculo é: " + area);
+    }
+}
